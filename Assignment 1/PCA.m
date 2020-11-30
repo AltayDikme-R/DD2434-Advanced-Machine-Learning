@@ -42,10 +42,10 @@ ylabel('log(\sigma_i )','Fontsize',18)
 % Determining how much of the data variance is explained by choosing k=2
 % principal components.
 squared = vec_S.^2;
-disp(sum(squared(1:6))/sum(squared))
+disp(sum(squared(1:2))/sum(squared))
 
 squared2 = vec_S2.^2;
-disp(sum(squared2(1:6))/sum(squared2))
+disp(sum(squared2(1:2))/sum(squared2))
 
 
 

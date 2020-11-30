@@ -1,6 +1,7 @@
 function [Y,Y2,types_row] = data_prep()
-%UNTITLED Summary of this function goes here
-%   Detailed explanation goes here
+% This function prepares our data so that we every category is represented as a boolean.
+% Returns two data matrices and a row with our types. The two data matrices correspond with the
+% two approaches taken to turn the "legs" category into booleans.
 
 data = importdata('zoo.data');
 

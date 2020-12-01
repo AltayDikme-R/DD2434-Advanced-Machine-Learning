@@ -32,7 +32,7 @@ S2 = -(0.5)*cent2;
 [U2,L2] = eig(S2); 
 
 %Plot for Dataset1
-X = real(sqrt(L))*real(U');
+X = sqrt(L)*U';
 x = X(1,:);
 y = X(2,:);
 
@@ -44,7 +44,7 @@ xlabel('k_1')
 ylabel('k_2')
 
 %Plot for Dataset 2
-X2 = real(sqrt(L2))*real(U2');
+X2 = sqrt(L2)*U2';
 x2 = X2(1,:);
 y2 = X2(2,:);
 
